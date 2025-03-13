@@ -13,5 +13,171 @@
 }
 
 .primary:active{
-  background: black;
+  background: blue;
+}
+/* Level 2 */
+
+.button{
+  color: white; 
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.button-blue{
+  background: blue;
+}
+
+.button-blue:hover{
+  background: darkblue;
+  box-shadow: 0px -1px 21px 0px rgba(0,0,0,0.22);
+  -webkit-box-shadow: 0px -1px 21px 0px rgba(0,0,0,0.22);
+  -moz-box-shadow: 0px -1px 21px 0px rgba(0,0,0,0.22);
+}
+
+.button-blue:active{
+  background: blue;
+}
+
+.button-gray{
+  background: gray;
+}
+
+.button-gray:hover{
+  background: darkgray;
+  box-shadow: 0px -1px 21px 0px rgba(0,0,0,0.22);
+  -webkit-box-shadow: 0px -1px 21px 0px rgba(0,0,0,0.22);
+  -moz-box-shadow: 0px -1px 21px 0px rgba(0,0,0,0.22);
+}
+
+.button-gray:active{
+  background: gray;
+}
+
+.button-green{
+  background: green;
+}
+
+.button-green:hover{
+  background: darkgreen;
+  box-shadow: 0px -1px 21px 0px rgba(0,0,0,0.22);
+  -webkit-box-shadow: 0px -1px 21px 0px rgba(0,0,0,0.22);
+  -moz-box-shadow: 0px -1px 21px 0px rgba(0,0,0,0.22);
+}
+
+.button-green:active{
+  background: green;
+}
+
+.button-red{
+  background: red;
+}
+
+.button-red:hover{
+  background: darkred;
+  box-shadow: 0px -1px 21px 0px rgba(0,0,0,0.22);
+  -webkit-box-shadow: 0px -1px 21px 0px rgba(0,0,0,0.22);
+  -moz-box-shadow: 0px -1px 21px 0px rgba(0,0,0,0.22);
+}
+
+.button-red:active{
+  background: red;
+}
+
+.button-orange{
+  background: orange;
+}
+
+.button-orange:hover{
+  background: darkorange;
+  box-shadow: 0px -1px 21px 0px rgba(0,0,0,0.22);
+  -webkit-box-shadow: 0px -1px 21px 0px rgba(0,0,0,0.22);
+  -moz-box-shadow: 0px -1px 21px 0px rgba(0,0,0,0.22);
+}
+
+.button-orange:active{
+  background: orange;
+}
+
+.button-cyan{
+  background: darkcyan;
+}
+
+.button-cyan:hover{
+  background: cyan;
+  box-shadow: 0px -1px 21px 0px rgba(0,0,0,0.22);
+  -webkit-box-shadow: 0px -1px 21px 0px rgba(0,0,0,0.22);
+  -moz-box-shadow: 0px -1px 21px 0px rgba(0,0,0,0.22);
+}
+
+.button-cyan:active{
+  background: darkcyan;
+}
+
+
+
+
+
+
+
+
+
+
+
+.variants{
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.variants-blue{
+  border: solid 2px blue;
+}
+
+.variants-blue:hover{
+  color: white;
+  background: blue;
+}
+
+.variants-gray{
+  border: solid 2px gray;
+}
+
+.variants-gray:hover{
+  color: white;
+  background: gray;
+}
+
+.variants-green{
+  border: solid 2px green;
+}
+
+.variants-green:hover{
+  color: white;
+  background: green;
+}
+
+.variants-red{
+  border: solid 2px red;
+}
+
+.variants-red:hover{
+  color: white;
+  background: red;
+}
+
+.variants-orange{
+  border: solid 2px orange;
+}
+
+.variants-orange:hover{
+  color: white;
+  background: orange;
+}
+
+.variants-cyan{
+  border: solid 2px darkcyan;
+}
+
+.variants-cyan:hover{
+  color: white;
+  background: darkcyan;
 }
